@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000; //
  
 app.get('/', (req, res) => {
-    res.send("<h1>Hello Express World! Atul here! What's up?</h1>");
+    res.send("<h1>Hello Express World! Atul here! What's up? Hi Friends</h1>");
 })
 
 app.get('/api/v2/rocket-man1/', (req, res) => {
